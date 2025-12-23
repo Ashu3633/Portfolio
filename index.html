@@ -3,62 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SalesForce UI</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <link rel="stylesheet" href="style.css"> 
-    </head>
+    <title>Pokemon cards </title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <div id="main">
-        <div id="header">
-              <div id="logo">
-                <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-no-type-logo.svg">
-              </div>
-              <div class="text"><p>Products</p></div>
-              <div class="text"><p>Industries</p></div>
-              <div class="text"><p>Customers</p></div>
-              <div class="text"><p>Learning</p></div>
-              <div class="text">
-                <P>More</P>
-                <p><i class="ri-arrow-down-s-line"></i></p>
-            </div>
-              <div class="text"></div>
-              <div id="contactDetails">
-                <p style="text-align: center;"><u>Contacts Us</u></p>
-                <p>888-0040-5050</p>
-              </div>
-              <div class="icon"><i class="ri-search-line"></i></div>
-              <div class="icon"><i class="ri-global-line"></i></div>
-              <div id="login">
-                 <i class="ri-user-3-fill "></i>
-                 <p>login</p>
-              </div>
-              <div id="try"><p>Try for Free</p></div>
-        </div>
-        <div id="fakeHeader"></div>
-        <div id="page1">
-          <div id="strip">
-            JUST ANNOUNCE:see why Gartner recognised Salesforce as a Leader in Customer Data Platforms. <u>Read the report</u>
-          </div>
-        <div id="contant">
-          <div id="box1">
-            <h1>Try Salesforce Suite for free.</h1>
-            <p>Unite marketing, sales, and service in a single app. Try Salesforce
-              starter suite today. There's nothing to install. No credit card required
-            </p>
-            <div id="btns">
-              <div id="btn1">start Free Trial</div>
-              <div id="btn2">Watch Demo</div>
-            </div>
-          </div>
-          <div id="box2">kdndjhjs</div>
-        </div>
-        <div id="heading"><h1>Learn what Salesforce products can do for you.</h1></div>
-        </div>
-        
-        <div id="page2"></div>
+        <div  id="card1" class="card"><img src="data:image/jpeg;base64,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" alt=""></div>
+        <div id="card2" class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiSBFsBinFwU3CgJLBJqltrHp9Z8MHMSD4Sg&s" alt=""></div>
+        <div id="card3" class="card"><img src="https://c4.wallpaperflare.com/wallpaper/590/986/483/pikachu-wallpaper-preview.jpg" alt=""></div>
+        <div id="card4" class="card"><img src="https://c4.wallpaperflare.com/wallpaper/232/126/483/pikachu-pokemon-simple-background-artwork-wallpaper-preview.jpg" alt=""></div>
+
     </div>
 </body>
 </html>
